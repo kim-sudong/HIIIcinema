@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <title>홈페이지</title>
     <!-- 절대 경로로 CSS 파일 링크 -->
-    <link rel="stylesheet" href="/homepage_css/homepage.css">
+    <link rel="stylesheet" href="/homepage_css/Homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>

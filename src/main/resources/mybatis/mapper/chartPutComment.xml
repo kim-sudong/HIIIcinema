@@ -21,16 +21,16 @@
 	</select>
 	
 	<select id="selectMovieReview" resultType="com.cinema.chart.chartPutCommentDTO">
-		SELECT * FROM REVIEW
-		WHERE
+		select * from review
+		where
 		customer_id=#{param3}
-		AND	MOVIECHART = #{param2}
-		AND CUSTOMER_UID = #{param1}
+		AND	moviechart = #{param2}
+		AND customer_uid = #{param1}
 	</select>
 	<select id="selectMovieAverageRate" resultType="java.lang.Double">
-		SELECT ROUND(IFNULL(AVG(rate), 0), 1)
-		FROM review
-		WHERE moviechart = ${param1}
+		select ROUND(IFNULL(AVG(rate), 0), 1)
+		from review
+		where moviechart = ${param1}
 	</select>
 	
 	<select id="buyTicketCheck" resultType="_int">
